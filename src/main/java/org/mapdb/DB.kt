@@ -734,7 +734,7 @@ open class DB(
                     if (!triggered && newVal == null && oldVal != null) {
                         //removal, also remove from overflow map
                         val oldVal2 = expireOverflow.remove(key)
-                        if (oldVal2 != null && _valueSerializer.equals(oldVal as V, oldVal2 as V)) {
+                        if (oldVal2 != null && !_valueSerializer.equals(oldVal as V, oldVal2 as V)) {
                             Utils.LOG.warning { "Key also removed from overflow Map, but value in overflow Map differs" }
                         }
                     } else if (triggered && newVal == null) {
