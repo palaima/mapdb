@@ -5,7 +5,7 @@
 
     <groupId>org.mapdb</groupId>
     <artifactId>mapdb</artifactId>
-    <version>3.1.1-SNAPSHOT</version>
+    <version>3.2</version>
     <name>mapdb</name>
     <description>MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap memory. It is a fast, scalable and easy to use embedded Java database.</description>
     <url>http://www.mapdb.org</url>
@@ -22,15 +22,15 @@
 
     <developers>
         <developer>
-            <name>Jan Kotek</name>
-            <id>jan</id>
+            <name>XXX</name>
+            <id>xxx</id>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:jankotek/mapdb.git</connection>
-        <developerConnection>scm:git:git@github.com:jankotek/mapdb.git</developerConnection>
-        <url>git@github.com:jankotek/mapdb.git</url>
+        <connection>scm:git:git@github.com:palaima/mapdb.git</connection>
+        <developerConnection>scm:git:git@github.com:palaima/mapdb.git</developerConnection>
+        <url>git@github.com:palaima/mapdb.git</url>
     </scm>
 
     <properties>
